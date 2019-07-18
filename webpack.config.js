@@ -6,6 +6,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'docs')
   },
+  watch: true,
   module: {
     loaders: [{
       test: /\.js$/,
